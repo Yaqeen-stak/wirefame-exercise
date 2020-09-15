@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+  }
+  header {
+      background-color: gray;
+  /* line-height: 20px;
+  width: 1100px; */
+  /* position: relative; */
+  height: 15%;
+  padding-left:280px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+ 
+  }
+  header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+
+  }
+  
+ header nav ul li {
+    float: left;
+    /* margin-left: 200px; */
+  }
+  
+  header nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding:0;
+    text-decoration: none;
+    list-style:none;
+    display: block;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-left: 20px;
+  }
+  
+ 
+  /* header nav ul li a {
+    
+    color: #f2f2f2;
+    text-align:center;
+    text-decoration: none;
+    font-size: 20px;
+ 
+    display:block;
+    /* margin-left: 640px;
+    margin-right: 200px; */
+    
+  
+
+  }
+
+  } 
+
+ 
+ nav ul li img {
+    display: inline-block;
+    bottom: 0px;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 260px;
+    /* margin: 0 auto; */
+     /* padding: 10px; */
+ }
+ 
+  #first img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+  }
+  
+    .column {
+        display: inline-block;
+margin-top: 15px;
+        float: left;
+    padding: 15px;
+    margin-bottom: 15px;
+      }
+      #second{
+
+margin-left: 17.5%;
+
+      }
+  #third {
+      clear: both;
+margin-left: 18.5%;
+
+  }
+  #third img {
+      float: left;
+      z-index:-1;
+  }
+ 
+ #third .text {
+
+      clear: both;
+      display: inline-block;
+      overflow: scroll;
+      position:absolute;
+ 
+    margin-left: 30px;
+    margin-top: 10px;
+  margin-right: 280px;
+  line-height: 12px;
+  
+}
+  #third h3 {
+ display: block;
+   margin-left: 510px;
+   font-weight: bold;
+    
+  }
+ 
+ 
+  .button {
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: bottom;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top:  345px;
+    margin-left: 20px;
+    cursor: pointer;
+    background-color: black;
+    
+  }
+
+ button:hover {
+    background-color: yellow;
+    transition-duration: 0.35s;
+}
+footer{
+    clear: both;
+    margin-top: 30px;
+    background-color: grey;
+    border: gray;
+    width: 100%;
+    height: 100px;
+
+    
+
+
+}
